@@ -6,10 +6,10 @@ export const HSharpPage = () => {
     
     
     const { unityProvider } = useUnityContext({
-        loaderUrl: "/build/TemplateData.loader.js",
-        dataUrl: "/build/TemplateData.data",
-        frameworkUrl: "/build/TemplateData.framework.js",
-        codeUrl: "/build/TemplateData.wasm",
+        loaderUrl: "/hSharp/TemplateData.loader.js",
+        dataUrl: "/hSharp/TemplateData.data",
+        frameworkUrl: "/hSharp/TemplateData.framework.js",
+        codeUrl: "/hSharp/TemplateData.wasm",
       });
     
       
